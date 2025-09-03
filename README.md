@@ -8,4 +8,10 @@ When an image is uploaded to an S3 bucket, a **Lambda function** is triggered au
 - **Amazon S3** – Storage buckets for original and processed images  
 - **AWS Lambda** – Serverless function to process images  
 - **IAM** – Role with S3 access for Lambda  
-- **CloudWatch Logs** – To monitor Lambda execution 
+- **CloudWatch Logs** – To monitor Lambda execution
+
+## Create S3 buckets
+- Create two S3 buckets
+  - image-upload-tiana
+  - image-processed-tiana
+- Ensure both buckets are in the same region
