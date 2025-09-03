@@ -27,3 +27,7 @@ When an image is uploaded to an S3 bucket, a **Lambda function** is triggered au
 - AWS Service
 - Use case: Lambda
 - Policy: AWSLambdaBasicExecutionRole, AmazonS3FullAccess
+- S3 > upload bucket > Properties > Event notifications
+- Event name: ImageUploadTrigger
+- Object creation: All object create events
+- Select created Lambda function
